@@ -10,8 +10,8 @@
 
 */
 
-// This variable saves the specified date
-var thisTime = new Date("February 3, 2018 3:15:28");
+// This variable saves the specified date, in this case the current date
+var thisTime = new Date();
 
 // Thsi variable saves the text of the above variable
 var timeStr = thisTime.toLocaleString();
